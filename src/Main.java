@@ -108,8 +108,9 @@ public class Main {
         short totalWeightEggs = 4 * 70;
         int totalWeightGramm = totalWeightBabanas + totalWeightMilk + totalWeightIceCream + totalWeightEggs;
         double totalWeightKg = totalWeightGramm / 1000;
-        System.out.println("Общий вес спортзавтрака " + totalWeightKg + " кг.") ;
-/*Задача 7
+        System.out.println("Общий вес спортзавтрака " + totalWeightGramm + " грамм.");
+        System.out.println("Общий вес спортзавтрака " + totalWeightKg + " кг.");
+        /*Задача 7
 Правила соревнований обновились, и спортсмену, чтобы оставаться в своей весовой категории, нужно сбросить 7 кг. Тренер скорректировал рацион так, чтобы спортсмен мог терять в весе от 250 до 500 грамм в день.
 Посчитайте, сколько дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм, а сколько — если каждый день будет худеть на 500 грамм.
 Посчитайте, сколько может потребоваться дней в среднем, чтобы добиться результата похудения.
